@@ -1,0 +1,104 @@
+* working with HTML5 (hypertext markup language)
+it is not programming language it is used for creatng web pages and documents
+
+*any web browser needed
+* text editors may be
+1. sublime text
+2. atom.io
+3. visual studio code
+4. brackets
+5. notepad++
+6. textmate (mac)
+
+* create folder with your name (saanvi html)
+* open any text editor and save it as index.html   (root), 
+   so that it will be saved with selected browser symbol
+* open sublime text editor
+   type something
+   save
+   open root folder and check what we wrote in sublime will be displayed in browser
+
+* HTML have tags 
+format of tags   <tagname>content</tagname>
+1.<p>used for paragraph</p>
+2.<br> - self closing tab - can be used for spaces between lines
+3.<h>used for headings</h>
+4.<tittle>used for titles in head part</tittle>
+5.<strong>for text inside this to be bold</strong>
+6.<em>for text inside this to be italic</em>
+7.<a href="">text to be like a link</a>                  will make particular words as a link with blue colour
+8.<a href="http://google.com">text to be like a link</a>    inside code as it is mentioned will generate to google page
+9.<a href="http://google.com" target="_blank">text to be like a link</a> 
+    when we give target as blank that link will be opened in a new tab
+10. <tagname attributename="attributevalue">content</tagname> 
+11. <li></li>
+12. <ul> list tag </ul>   -used generally for website navigations
+13. <ol> list tag </ol>
+14. <table>
+                  <thead>
+		<tr>
+		        <th>heading of table row1</th>
+		        <th>heading of table row2</th>
+		        <th>heading of table row3</th>	
+		</tr>
+                  </thead>
+                  <tbody>
+		<tr>
+		<td>some info according to headings details1<td>
+		<td>some info according to headings details2<td>
+		<td>some info according to headings details3<td>
+		</tr>                   
+                   </tbody>
+
+</table>
+15. <div style="margin-top : 500px"></div>
+16. <form action="process.php" method="POST">
+       </form>
+       Here "POST" method is used to add dates etc, this is secure
+       & "GET" is used in case of search or find the date saved in URL and this is insecure
+17. <hr>  this is self closing tag and used to draw a horizontal line.
+18.
+
+webinar : study.helloveeru.com
+
+structure of HTML
+<!DOCTYPE html>
+<html>
+            <Head>
+	     <tittle>mention html page tittle</tittle>
+            </Head>
+
+            <Body>
+	<h>any number of headings in separate lines</h>
+	<p>any number of paragraphs in separate lines</p>
+            </Body>
+</html>
+
+
+
+tags can be inline or block elements
+
+inline : do not start in newline & uses limited space  - like spans, images, links
+block : will start in a newline & take full width available - <div>, <h1>-<h6>, <p>, <form>
+attributes : which provides additional information about the element
+lists : unorderedlists & ordered lists
+table : head & body tages should be included as in point 14 above.
+form : generally used to mention or to perform action like open register forms, application forms or etc.
+action & method in forms will be used to write server side programmes
+forms have 2 main tags
+1. label
+2.input (self closing with type and name in it)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
